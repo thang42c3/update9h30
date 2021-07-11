@@ -15,7 +15,7 @@ today = date.today()
 myclient = pymongo.MongoClient("mongodb+srv://ducthangbnn:Oivung1215@cluster0.1rpru.mongodb.net/test",
                                connect=False)
 mydb = myclient["stocks"]
-mycol = mydb["price_9h_30_ex"]
+mycol = mydb["price_9h_30"]
 b30_stocks = mydb["b30_stock"]
 
 options = webdriver.ChromeOptions()
