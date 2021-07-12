@@ -5,6 +5,7 @@ from datetime import datetime
 from datetime import date
 import pymongo
 
+time.sleep(300)
 '''
 Đầu vào: Dữ liệu các mã cổ phiếu.
 Đầu ra: Các file excell được download trực tiếp từ website ứng với từng mã"
